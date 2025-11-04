@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api", // backend URL
+  baseURL: "https://digital-voucher-e-commerce-backend.onrender.com/api", 
 });
 
 api.interceptors.request.use((config) => {
